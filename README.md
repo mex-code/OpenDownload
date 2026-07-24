@@ -34,8 +34,8 @@ The script never hardcodes an OS-specific path. It uses `pathlib.Path.home()` an
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/all-in-one-downloader.git
-cd all-in-one-downloader
+git clone https://github.com/your-username/OpenDownload.git
+cd OpenDownload 
 python3 -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
