@@ -1,13 +1,14 @@
 # OpenDownload
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android%20%7C%20iOS-success)
 ![License](https://img.shields.io/badge/License-EPL--2.0-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
+
 A single-file, cross-platform command-line tool for downloading YouTube videos/audio and TikTok videos/music, built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [requests](https://github.com/psf/requests).
 
 ## What it does
 
-- Downloads YouTube videos at a chosen quality (144p–1080p)
+- Downloads YouTube videos at a chosen quality (144p–1080p) ( I don't support 60 fps yet, sorry :3 )
 - Downloads YouTube audio, converted to MP3 when FFmpeg is available
 - Downloads TikTok videos in the best available quality (HD when the API provides it)
 - Downloads the original TikTok background music track when available
