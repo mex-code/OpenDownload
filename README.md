@@ -1,4 +1,4 @@
-# All-in-One Downloader
+# OpenDownload
 
 A single-file, cross-platform command-line tool for downloading YouTube videos/audio and TikTok videos/music, built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [requests](https://github.com/psf/requests).
 
@@ -34,8 +34,8 @@ The script never hardcodes an OS-specific path. It uses `pathlib.Path.home()` an
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/OpenDownload.git
-cd OpenDownload 
+git clone https://github.com/mex-code/OpenDownload
+cd OpenDownload
 python3 -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -59,8 +59,8 @@ python3 downloader.py
 
 You will see a menu:
 
-```
-=== All-in-One Downloader ===
+```text
+=== OpenDownload ===
 1. YouTube video
 2. YouTube audio
 3. TikTok video
@@ -71,7 +71,7 @@ You will see a menu:
 
 Example: downloading a YouTube video
 
-```
+```text
 Choose an option (1-6): 1
 Paste YouTube URL: https://www.youtube.com/watch?v=example
 
@@ -93,18 +93,18 @@ Choose quality: 5
 
 Example: downloading a TikTok video
 
-```
+```text
 Choose an option (1-6): 3
 Paste TikTok URL: https://vm.tiktok.com/example/
 ```
 
 Files are saved under:
 
-```
+```text
 <Downloads root>/YouTube/Video/
 <Downloads root>/YouTube/Audio/
-<Downloads root>/TikTok/Video/
-<Downloads root>/TikTok/Music/
+<TikTok/Video/
+<TikTok/Music/
 ```
 
 ## Dependency notes
