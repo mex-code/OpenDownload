@@ -23,9 +23,9 @@ A single-file, cross-platform command-line tool for downloading YouTube videos/a
 
 | Platform | Status | Notes |
 |---|---|---|
-+| Windows | Full support | Requires Python 3.11+ |
-+| macOS | Full support | Requires Python 3.11+ |
-+| Linux | Full support | Requires Python 3.11+ |
+| Windows | Full support | Requires Python 3.11+ |
+| macOS | Full support | Requires Python 3.11+ |
+| Linux | Full support | Requires Python 3.11+ |
 | Android (Termux) | Full support | Auto-detects `~/storage/shared/Downloads`; run `termux-setup-storage` first |
 | iOS (Pythonista / a-Shell / Pyto) | Best-effort | Networking and filesystem access depend on the app; some apps sandbox file access and disable subprocess calls |
 
