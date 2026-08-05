@@ -11,7 +11,7 @@ A single-file, cross-platform command-line tool for downloading YouTube videos/a
 
 ## What it does
 
-- Downloads YouTube videos at a chosen quality (144p–1080p) ( I don't support 60 fps yet, sorry :3 )
+- Downloads YouTube videos at a chosen quality (144p–1080p) ( yay I update the fps :3 )
 - Downloads YouTube audio, converted to MP3 when FFmpeg is available
 - Downloads TikTok videos in the best available quality (HD when the API provides it)
 - Downloads the original TikTok background music track when available
@@ -61,7 +61,7 @@ If you skip installing dependencies up front, the program will detect what is mi
 ## Usage
 
 ```bash
-python3 downloader.py
+python3 main.py
 ```
 
 You will see a menu:
@@ -75,7 +75,9 @@ You will see a menu:
 5. Install missing dependencies
 6. Exit
 ```
-
+```text
+You Now Able Choose FPS tho
+```
 Example: downloading a YouTube video
 
 ```text
